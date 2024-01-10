@@ -3,7 +3,7 @@ import tweepy
 
 from PIL import Image, ImageDraw
 import random
-if (random.randint(1,10) <= 9) :
+if (random.randint(1,10) == 9) :
     img = Image.new("RGB", (1200 , 675), (255,255,255))
     drawing_context = ImageDraw.Draw(img)
     drw = ImageDraw.Draw(img, 'RGBA')
